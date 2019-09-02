@@ -87,8 +87,72 @@ public class Attributes {
         return Neighborhood;
     }
 
+    public void setOBJECTID(Integer OBJECTID) {
+        this.OBJECTID = OBJECTID;
+    }
+
+    public void setParcelID(Integer parcelID) {
+        ParcelID = parcelID;
+    }
+
+    public void setOwners(String owners) {
+        Owners = owners;
+    }
+
+    public void setPhysicalAddress(String physicalAddress) {
+        PhysicalAddress = physicalAddress;
+    }
+
+    public void setSaleMonth(Integer saleMonth) {
+        SaleMonth = saleMonth;
+    }
+
+    public void setSaleYear(Integer saleYear) {
+        SaleYear = saleYear;
+    }
+
+    public void setSalePrice(Integer salePrice) {
+        SalePrice = salePrice;
+    }
+
+    public void setTotalAssessedValue(Integer totalAssessedValue) {
+        TotalAssessedValue = totalAssessedValue;
+    }
+
+    public void setParZipCode(Integer parZipCode) {
+        ParZipCode = parZipCode;
+    }
+
+    public void setParCity(String parCity) {
+        ParCity = parCity;
+    }
+
+    public void setParcelBuildingValue(float parcelBuildingValue) {
+        ParcelBuildingValue = parcelBuildingValue;
+    }
+
+    public void setTotalAcutalAreaHeated(float totalAcutalAreaHeated) {
+        TotalAcutalAreaHeated = totalAcutalAreaHeated;
+    }
+
+    public void setZoning(String zoning) {
+        Zoning = zoning;
+    }
+
     public void setCleanZoning(String cleanZoning) {
         this.cleanZoning = cleanZoning;
+    }
+
+    public void setLongitude(Double longitude) {
+        Longitude = longitude;
+    }
+
+    public void setLatitude(Double latitude) {
+        Latitude = latitude;
+    }
+
+    public void setNeighborhood(Integer neighborhood) {
+        Neighborhood = neighborhood;
     }
 
     @Override
